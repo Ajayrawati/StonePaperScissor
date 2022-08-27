@@ -7,9 +7,9 @@ draw = 0
 n=1
 while(n<=10):
     import random
-    lst = [1, 2, 3] #1- Stone  2- Paper 3- Sccisor
+    lst = [1, 2, 3] #1- Stone  2- Paper 3- Scissor
     a = int(random.choice(lst))
-    b = int(input("Enter your choice\n 1- Stone\n 2- Paper\n 3- Sccisor\n"))
+    b = int(input("Enter your choice\n 1- Stone\n 2- Paper\n 3- Scissor\n"))
     if b == 1:
         if a == 1:
             print("tie")
